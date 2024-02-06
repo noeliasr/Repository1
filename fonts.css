@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'HuskyStash-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HuskyStash-Regular'), url('husky stash.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Octuple max Solid';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Octuple max Solid'), url('Octuple-max-demo.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Planet Kosmos';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Planet Kosmos'), url('PLANK___.woff') format('woff');
+}
