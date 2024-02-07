@@ -27,7 +27,7 @@ html, body{
 }
 
 .section-title{
-    padding: 2em 0;
+    padding: 1em 0;
     color: white;
     font-size: calc(4vh + 1vw);
     font-family: 'Planet Kosmos';
@@ -89,7 +89,7 @@ header{
                 transition: .3s;
             }
                 .slider-screen{
-                    background-image: url(./imagenes/rainbow\ flower\ aura\ 🌈💗🌸.jpg);
+                    background-image: url(./imagenes/fondo\ flor.jpg);
                     background-position: center;
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -146,27 +146,28 @@ header{
         width: 100vw;
         height: fit-content;
         padding: 4em 1em;
-        background-color: #f5f5f5;
+        background-color: rgb(253, 253, 253); /*#FFE6EE*/
         display: flex;
     }
         .about-context{
             width: 85%;
             margin: auto;
         }
-        .about-context h1{
+        .about-context h1{ /*"Título" de info*/
             font-size: calc(4vh + 1vw);
             margin-bottom: 1.2em;
             text-align: center;
             line-height: 1.4em;
         }
-        .about-context p{
+        .about-context p{ /*"Párrafo" de info*/
             margin-bottom: 1.5em;
             text-indent: 1em;
             line-height: 1.4em;
             font-size: 3vh;
             text-align: left;
         }
-        .about-context h4{
+        .about-context h4{ /*"Aclaración" en html*/
+            color: white;
             position: relative;
             left: -10%;
             text-align: right;
@@ -178,7 +179,7 @@ main{
     height: fit-content;
     width: 100vw;
     padding-bottom: 10vh;
-    background: url(./imagenes/Free\ Vector\ _\ Gradient\ minimalist\ background.jpg) no-repeat;
+    background: url(./imagenes/fondo\ gradiente.jpg) no-repeat;
     background-blend-mode: overlay;
     background-color: rgba(169, 169, 169, 0.489);
     background-size: cover;
@@ -194,7 +195,7 @@ footer{
     bottom: 0;
     width: 100vw;
     padding: 10vh 0;
-    background-color: rgb(197, 128, 230);
+    background-color: #D6EFF6; /*#B5F296*/
 }
     .cont-of-socialm{
         display: flex;
@@ -319,6 +320,7 @@ footer{
                 white-space: nowrap;
                 text-decoration: none;
                 font-size: calc(2.5vh + .3vw);
+                font-family: 'Courier New', Courier, monospace; /*CAMBIAR FUENTE*/
                 color: #fafafa;
                 letter-spacing: 1px;
                 width: 25%;
@@ -385,7 +387,6 @@ footer{
         .iconos{
             height: calc(8vh + 3vw);
         }
-
         .socialm>a{
             margin-top: 1vh;
             font-size: 3vh;
@@ -410,12 +411,12 @@ footer{
             margin: auto 7.5%;
         }
         .card>img{
-            height: 8vh;
-            width: 8vh;
+            height: 11vh;
+            width: 11vh;
             border: .2vw solid rgb(211, 211, 211);
         }
             .card>a>img{
-                height: 3vh;
+                height: 5vh;
                 margin: .5vw;
             }
 }
