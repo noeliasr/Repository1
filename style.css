@@ -43,15 +43,15 @@ header{
         top: 0;
         left: 0;
         width: 100vw;
-        height: 12vh;
+        height: 14vh;
         padding-left: 5vh;
         padding-right: 2.5vh;
         z-index: 100;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background: #fe90b5ee;
-        box-shadow: 0 0 3.5vh rgb(216, 102, 102);
+        background: #fe90b5;
+        box-shadow: 0 0 10vh rgb(247, 147, 147);
     }
         nav h1{
             letter-spacing: 3px;
@@ -68,6 +68,7 @@ header{
                 display: none;
             }
             .nav-links{
+                font-family: 'HuskyStash-Regular';
                 display: none;
             }
 
@@ -97,14 +98,7 @@ header{
                     width: 25%;
                     position: relative;
                 }
-                /* .slider-screen:nth-child(2){
-                    background-image: url(./imagenes/parrillas.jpg);
-                    background-position: 45% 40%;
-                }
-                .slider-screen:nth-child(3){
-                    background-image: url(./imagenes/wp3.jpg);
-                    background-position: 50% 0%;
-                } */
+
         .caption{
             height: 40%;
             max-width: 75%;
@@ -176,7 +170,7 @@ header{
         }
 
         .about-context h4{ /*"Aclaración" en html*/
-            color: white;
+            color: black;
             position: relative;
             left: -10%;
             text-align: right;
@@ -204,14 +198,14 @@ footer{
     bottom: 0;
     width: 100vw;
     padding: 10vh 0;
-    background-color: #D6EFF6; /*#B5F296*/
+    background-color: #b5adfb; /*#B5F296 D6EFF6*/
 }
     .cont-of-socialm{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
-        padding: 5% 3%;
+        padding: 2% 3%;
     }
 
         .socialm{
@@ -266,6 +260,8 @@ footer{
         .card>p{
             margin: 3vh 15%;
             max-width: 70%;
+            font-size: 1.2em;
+            text-align: center;
         }
 }
 
