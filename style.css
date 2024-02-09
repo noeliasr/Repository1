@@ -164,8 +164,17 @@ header{
             text-indent: 1em;
             line-height: 1.4em;
             font-size: 3vh;
-            text-align: left;
+            text-align: center;
         }
+
+        .especial{ /*"¡No te arrepentirás!"*/
+            padding-top: 10px;
+        }
+
+        .linkEntradas a{ /*Link entradas párrafo, encima de spoti*/
+            padding-top: 15px;
+        }
+
         .about-context h4{ /*"Aclaración" en html*/
             color: white;
             position: relative;
