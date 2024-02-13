@@ -2,19 +2,26 @@
     font-family: 'HuskyStash-Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('HuskyStash-Regular'), url('husky stash.woff') format('woff');
+    src: local('HuskyStash-Regular'), url('fuentes/husky\ stash.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Octuple max Solid';
     font-style: normal;
     font-weight: normal;
-    src: local('Octuple max Solid'), url('Octuple-max-demo.woff') format('woff');
+    src: local('Octuple max Solid'), url('fuentes/Octuple-max-demo.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Planet Kosmos';
     font-style: normal;
     font-weight: normal;
-    src: local('Planet Kosmos'), url('PLANK___.woff') format('woff');
+    src: local('Planet Kosmos'), url('fuentes/PLANK___.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Good timing';
+    font-style: normal;
+    font-weight: normal;
+    src: url('good\ timing\ bd.ttf');
 }
