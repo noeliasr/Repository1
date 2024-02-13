@@ -20,8 +20,15 @@
 }
 
 @font-face {
-    font-family: 'Good timing';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
-    src: url('good\ timing\ bd.ttf');
+    src: url('fuentes/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fuentes/Montserrat-Regular.ttf');
 }

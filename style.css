@@ -54,7 +54,7 @@ header{
         top: 0;
         left: 0;
         width: 100vw;
-        height: 14vh;
+        height: 13vh;
         justify-content: center;        
         padding-left: 5vh;
         padding-right: 2.5vh;
@@ -65,32 +65,57 @@ header{
         box-shadow: 0 0 10vh rgb(247, 147, 147);
     }
         nav h1{
+            display: block;
+            width: 20%;
             letter-spacing: 3px;
             font-size: calc(3.5vh + .7vw);
             color: white;
             font-family: 'HuskyStash-Regular';
-            display: block;
-            width: 20%;
-        }
-        .menu-toggler{
-            display: none;
-            height: 5vh;
+            margin-left: 1em;
+            margin-right: 1em;
         }
             .link--sizer{
                 display: block;
             }
             .nav-links{
+                display: block;
                 position: relative;
                 right: 0;
-                display: block;
+                width: 25%;
+
                 white-space: nowrap;
                 text-decoration: none;
                 font-size: calc(2.5vh + .3vw);
-                font-family: 'Courier New', Courier, monospace; /*CAMBIAR FUENTE*/
+                font-family: 'Lato';
                 color: #fafafa;
                 letter-spacing: 1px;
-                width: 25%;
                 text-align: right;
+            }
+            .nav-links:hover{
+                display: block;
+                position: relative;
+                right: 0;
+                width: 25%;
+
+                white-space: nowrap;
+                text-align: right;
+                text-decoration: none;
+                text-shadow: 2px 2px 4px rgb(255, 255, 255);
+                font-size: calc(2.5vh + .3vw);
+                font-family: 'Lato';
+                color: #fafafa;
+                
+                letter-spacing: 1px;
+                animation: bound 1s ease-in-out infinite;
+            }
+
+            @keyframes bound {
+                0%, 100% {
+                  transform: translate(0, 0);
+                }
+                50% {
+                  transform: translate(0, -1vh);
+                }
             }
 
     .supercont-of-slider{
@@ -142,7 +167,6 @@ header{
                 letter-spacing: .5vw;
                 line-height: 2em;
                 text-shadow: 0 5px 10px black ;
-                /* background-color: rgba(0, 4, 255, 0.4); */
             }
 
             .arrow--down{
@@ -154,8 +178,16 @@ header{
                 transform: translateX(-50%) rotate(45deg);
                 border-right: 5px solid white;
                 border-bottom: 5px solid rgb(240, 240, 240);
+
+                animation: flotar 1s linear infinite alternate;
+            }
+            @keyframes flotar{
+                to{
+                    margin-top: 2vh;
+                }
             }
 
+    /*ARTICLE PARRAFO MAIN*/
     .article-about{
         /* position: relative; */
         width: 100vw;
@@ -170,7 +202,7 @@ header{
             margin: auto;
         }
         .about-context h1{ /*"Título" de info*/
-            font-size: calc(3vh + 0.75vw);
+            font-size: calc(3.2vh + 0.85vw);
             font-family: 'Octuple max Solid';
             margin-bottom: 1.2em;
             text-align: center;
@@ -182,8 +214,8 @@ header{
             text-align: center;
             margin-bottom: 1.5em;
             line-height: 1.4em;
-            font-size: calc(2vh + 0.5vw);
-            font-family: 'Good timing';
+            font-size: calc(1.8vh + 0.5vw);
+            font-family: 'Montserrat';
             width: 65%;
             max-width: 900vw;
             margin: 0 auto;
@@ -264,6 +296,18 @@ main{
                         text-shadow: none;
                     }
 
+    /*SECCIÓN CIUDADES*/
+    .section-ciudades{
+        height: fit-content;
+        width: 100vw;
+        padding-bottom: 15vh;
+    }
+        .listaCiudades{
+            list-style: none;
+            font-size: calc(2.2vh + 0.75vw);
+            font-family: 'Octuple max Solid';
+            line-height: 2.5em;
+        }
 
 /*FOOTER*/
 footer{
