@@ -308,6 +308,25 @@ main{
             font-family: 'Octuple max Solid';
             line-height: 2.5em;
         }
+        .imagenEstrella1{
+            position: relative;
+            width: 5%;
+            left: 1em;
+        }
+        .imagenEstrella2{
+            position: relative;
+            width: 10%;
+
+            left: 20em;
+        }
+        .imagenEstrella3{
+            position: relative;
+            width: 10%;
+
+            right: 30em;
+        }
+
+        .imagen
 
 /*FOOTER*/
 footer{
