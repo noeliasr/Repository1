@@ -108,7 +108,6 @@ header{
                 letter-spacing: 1px;
                 animation: bound 1s ease-in-out infinite;
             }
-
             @keyframes bound {
                 0%, 100% {
                   transform: translate(0, 0);
@@ -303,30 +302,55 @@ main{
         padding-bottom: 15vh;
     }
         .listaCiudades{
+            margin-top: -50px;
+            margin-bottom: 25px;
             list-style: none;
             font-size: calc(2.2vh + 0.75vw);
             font-family: 'Octuple max Solid';
             line-height: 2.5em;
         }
-        .imagenEstrella1{
-            position: relative;
-            width: 5%;
-            left: 1em;
-        }
-        .imagenEstrella2{
-            position: relative;
-            width: 10%;
 
-            left: 20em;
+        .imagenEstrella{
+            width: 4%;
         }
-        .imagenEstrella3{
+        .spanEstrella1 {
             position: relative;
-            width: 10%;
-
-            right: 30em;
+            left: -18em;
+            top: -6em;
+            animation: flotarEstrella1 1.5s linear infinite alternate;
+          }
+        @keyframes flotarEstrella1{
+            to{
+                top: -6.5em;
+            }
+        }
+          
+        .spanEstrella2 {
+        position: relative;
+        left: 27em;
+        top: 2em;
+        animation: flotarEstrella2 1s linear infinite alternate;
+        }
+        @keyframes flotarEstrella2{
+            to{
+                top: 2.5em;
+            }
         }
 
-        .imagen
+        .spanEstrella3 {
+        position: relative;
+        left: -17em;
+        top: 8em;
+        animation: flotarEstrella3 1s linear infinite alternate;
+        }
+        @keyframes flotarEstrella3{
+            to{
+                top: 7.5em;
+            }
+        }
+
+          
+          
 
 /*FOOTER*/
 footer{
