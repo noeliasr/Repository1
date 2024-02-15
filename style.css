@@ -309,6 +309,13 @@ main{
             font-family: 'Octuple max Solid';
             line-height: 2.5em;
         }
+            .ciudad{
+                text-shadow: 2px 2px 4px #fa77a3;
+            }
+            .ciudad:hover{
+                text-shadow: 2px 2px 4px #fa77a3;
+                font-size: calc(3vh + 0.8vw);
+            }
 
         .imagenEstrella{
             width: 4%;
@@ -316,36 +323,42 @@ main{
         .spanEstrella1 {
             position: relative;
             left: -18em;
-            top: -6em;
+            top: -2em;
             animation: flotarEstrella1 1.5s linear infinite alternate;
-          }
+        }
+        .spanEstrella1 > img{
+            transform: rotate(40deg);
+        }
         @keyframes flotarEstrella1{
             to{
-                top: -6.5em;
+                top: -2.5em;
             }
         }
           
         .spanEstrella2 {
         position: relative;
-        left: 27em;
-        top: 2em;
+        left: 25em;
+        top: 6em;
         animation: flotarEstrella2 1s linear infinite alternate;
         }
         @keyframes flotarEstrella2{
             to{
-                top: 2.5em;
+                top: 6.5em;
             }
         }
 
         .spanEstrella3 {
         position: relative;
-        left: -17em;
-        top: 8em;
+        left: -22em;
+        top: 15em;
         animation: flotarEstrella3 1s linear infinite alternate;
+        }
+        .spanEstrella3 > img{
+            transform: rotate(-20deg);
         }
         @keyframes flotarEstrella3{
             to{
-                top: 7.5em;
+                top: 15.5em;
             }
         }
 
