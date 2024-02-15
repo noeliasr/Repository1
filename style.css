@@ -372,6 +372,76 @@ footer{
     padding: 10vh 0;
     background-color: #b5adfb; /*#B5F296 D6EFF6*/
 }
+    .paginas{
+        display: flex;
+        justify-content: space-between;
+        width: 50vh;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+        .formularioDiv > a{
+                display: block;
+                position: relative;
+                right: 0;
+                width: 25%;
+
+                white-space: nowrap;
+                text-decoration: none;
+                font-size: calc(2.5vh + .3vw);
+                font-family: 'Lato';
+                color: #fafafa;
+                letter-spacing: 1px;
+                text-align: right;
+        }
+        .formularioDiv > a:hover{
+            display: block;
+            position: relative;
+            right: 0;
+            width: 25%;
+
+            white-space: nowrap;
+            text-decoration: none;
+            font-size: calc(2.5vh + .3vw);
+            font-family: 'Lato';
+            color: #fafafa;
+            letter-spacing: 1px;
+            text-align: right;
+
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
+        .faqDiv > a{
+            display: block;
+            position: relative;
+            right: 0;
+            width: 25%;
+
+            white-space: nowrap;
+            text-decoration: none;
+            font-size: calc(2.5vh + .3vw);
+            font-family: 'Lato';
+            color: #fafafa;
+            letter-spacing: 1px;
+            text-align: right;
+        }
+        .faqDiv > a:hover{
+            display: block;
+            position: relative;
+            right: 0;
+            width: 25%;
+
+            white-space: nowrap;
+            text-decoration: none;
+            font-size: calc(2.5vh + .3vw);
+            font-family: 'Lato';
+            color: #fafafa;
+            letter-spacing: 1px;
+            text-align: right;
+            
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        }
+
     .cont-of-socialm{
         display: flex;
         justify-content: space-evenly;

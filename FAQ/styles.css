@@ -10,7 +10,6 @@
   --work-sans: "Work Sans", sans-serif;
 }
 
-
 /*Reset CSS*/
 * {
   margin: 0;
@@ -74,13 +73,6 @@ h1 {
   height: 30px;
   margin: 0 30px 0 10px;
 }
-/* h1::before {
-  content: url("./assets/images/icon-star.svg");
-  display: inline-block;
-  margin-right: 40px; 
-  width:30px;
-  height: 100px;
-} */
 
 .background-top {
   width: 100%;
@@ -109,7 +101,6 @@ section:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
-
 
 .attribution {
   position: fixed;
@@ -144,7 +135,6 @@ section:last-child {
 }
 
 .accordion-title {
-  
   cursor: pointer;
   display: block;
   /* display: flex; */
