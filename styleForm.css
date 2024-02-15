@@ -5,6 +5,75 @@ body {
     padding: 0;
 }
 
+/*navbar*/
+header{
+    border-color: #f5f5f5;
+}
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 9vh;
+        justify-content: center;        
+        padding-right: 2.5vh;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        background: #C000BF;
+        box-shadow: 0 0 10vh rgb(247, 147, 147);
+    }
+        nav h1{
+            display: block;
+            width: 30%;
+            letter-spacing: 3px;
+            font-size: calc(3.5vh + .7vw);
+            color: white;
+            font-family: 'HuskyStash-Regular';
+        }
+            .link--sizer{
+                display: block;
+            }
+            .nav-links{
+                display: block;
+                position: relative;
+                right: 0;
+                width: 25%;
+
+                white-space: nowrap;
+                text-decoration: none;
+                font-size: calc(2.5vh + .3vw);
+                font-family: 'Lato';
+                color: #fafafa;
+                letter-spacing: 1px;
+                text-align: right;
+            }
+            .nav-links:hover{
+                display: block;
+                position: relative;
+                right: 0;
+                width: 25%;
+
+                white-space: nowrap;
+                text-align: right;
+                text-decoration: none;
+                text-shadow: 2px 2px 4px rgb(255, 255, 255);
+                font-size: calc(2.5vh + .3vw);
+                font-family: 'Lato';
+                color: #fafafa;
+                
+                letter-spacing: 1px;
+                animation: bound 1s ease-in-out infinite;
+            }
+            @keyframes bound {
+                0%, 100% {
+                  transform: translate(0, 0);
+                }
+                50% {
+                  transform: translate(0, -1vh);
+                }
+            }
+
 .video-container {
     position: fixed;
     top: 0;
@@ -15,7 +84,6 @@ body {
     /* Para que el video esté detrás del contenido */
     overflow: hidden;
 }
-
 video {
     min-width: 100%;
     min-height: 100%;
@@ -29,7 +97,7 @@ video {
 
 .container {
     max-width: 600px;
-    margin: 50px auto;
+    margin: 65px auto;
     padding: 20px;
     background-color: rgba(250, 220, 247, 0.961);
     /* Fondo semitransparente para mejorar la legibilidad del texto */
