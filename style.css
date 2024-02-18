@@ -214,6 +214,9 @@ header{
         .linkEntradas a{ /*Link entradas párrafo, encima de spoti*/
             margin-bottom: 50px;
             line-height: 3em;
+            font-size: calc(1.8vh + 0.5vw);
+            white-space: nowrap; /* Evita que el texto se divida */
+          
             border: 1px solid hsl(274, 55%, 56%);
             padding: 10px;
             background-color: hsl(273, 48%, 81%);
